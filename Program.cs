@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Reflection.Emit;
+﻿using System.Reflection.Emit;
 using System.Runtime.InteropServices;
 
 /*
