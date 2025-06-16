@@ -8,9 +8,9 @@ En C#, string es una clase que representa una secuencia de caracteres Unicode. s
 ## ¿Qué secuencias de escape tiene el tipo string?
 En el tipo string, las secuencias de escape se utilizan para representar caracteres especiales que no pueden ser introducidos directamente en una cadena. Estas secuencias comienzan con una barra invertida **(\)** seguida de un carácter específico, que indica la acción a realizar. 
 Algunas secuencias de escape son: 
-- \\: Representa una única barra invertida.
-- \': Representa una comilla simple.
-- \": Representa una comilla doble.
+- \\\\: Representa una única barra invertida.
+- \\': Representa una comilla simple.
+- \\": Representa una comilla doble.
 - \n: Representa una nueva línea.
 - \r: Representa un retorno de carro.
 - \t: Representa una tabulación horizontal.
