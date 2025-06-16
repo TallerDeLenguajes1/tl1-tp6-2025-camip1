@@ -6,19 +6,19 @@ En **C#**, la cadena (string) es un tipo de referencia, aunque se comporte de ma
 En C#, string es una clase que representa una secuencia de caracteres Unicode. string es un alias para la clase System.String. La clase string es de tipo referencia, lo que significa que las variables de tipo cadena almacenan una referencia a un objeto en la memoria, en lugar de almacenar directamente el valor de la cadena. 
 
 ## ¿Qué secuencias de escape tiene el tipo string?
-En el tipo string, las secuencias de escape se utilizan para representar caracteres especiales que no pueden ser introducidos directamente en una cadena. Estas secuencias comienzan con una barra invertida **(\@)** seguida de un carácter específico, que indica la acción a realizar. 
+En el tipo string, las secuencias de escape se utilizan para representar caracteres especiales que no pueden ser introducidos directamente en una cadena. Estas secuencias comienzan con una barra invertida **(\)** seguida de un carácter específico, que indica la acción a realizar. 
 Algunas secuencias de escape son: 
-\@\: Representa una única barra invertida.
-\': Representa una comilla simple.
-\": Representa una comilla doble.
-\n: Representa una nueva línea.
-\r: Representa un retorno de carro.
-\t: Representa una tabulación horizontal.
-\b: Representa un retroceso.
-\f: Representa un salto de página.
-\v: Representa una tabulación vertical.
-\a: Representa una alerta o timbre.
-\0: Representa el carácter nulo.
+- \\: Representa una única barra invertida.
+- \': Representa una comilla simple.
+- \": Representa una comilla doble.
+- \n: Representa una nueva línea.
+- \r: Representa un retorno de carro.
+- \t: Representa una tabulación horizontal.
+- \b: Representa un retroceso.
+- \f: Representa un salto de página.
+- \v: Representa una tabulación vertical.
+- \a: Representa una alerta o timbre.
+- \0: Representa el carácter nulo.
 
 ## ¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
 **@ (Literal String):**
